@@ -1,0 +1,492 @@
+/*
+ * Body Styles
+ */
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: "Avenir", sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-style: normal;
+}
+h1,
+.hero-container h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 1.15;
+}
+h2,
+.top-copy h2,
+.location-addr h2 {
+    font-size: 2.5rem;
+    line-height: 1.25;
+    font-weight: 400;
+    margin-top: 0;
+}
+h3,
+.content-container h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: 0px;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.5rem;
+}
+h4,
+.content-container h4 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 0px;
+    font-style: normal;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.25rem;
+}
+body p {
+    color: #747474;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+}
+body footer p {
+    font-size: .75rem;
+    line-height: .9375rem;
+}
+
+/*
+* Header Styles
+*/
+header .grid-row {
+    padding: 20px 0;
+    height: 65px;
+}
+header [class^="grid-"] {
+    align-items: center;
+}
+/* Logo Variations */
+body[class*=armc]  .header-logo,
+body[class*=gwuh]  .header-logo,
+body[class*=lrmc]  .header-logo,
+body[class*=mmhs]  .header-logo,
+body[class*=nwths] .header-logo,
+body[class*=nnmc]  .header-logo,
+body[class*=swhs]  .header-logo,
+body[class*=sths]  .header-logo,
+body[class*=vhs]   .header-logo,
+body[class*=wrmc]  .header-logo {
+    width: 300px;
+    height: auto;
+}
+body[class*=crmc] .header-logo,
+body[class*=dhl]  .header-logo,
+body[class*=fdmc] .header-logo,
+body[class*=mmh]  .header-logo,
+body[class*=prmc] .header-logo,
+body[class*=stm]  .header-logo,
+body[class*=tmc]  .header-logo,
+body[class*=tvh]  .header-logo {
+    width: auto;
+    height: 68px;
+}
+.header-tagline {
+    font-size: 24px;
+    color: rgb(110, 109, 109);
+    line-height: 1.1;
+    text-align: center;
+    margin: 0;
+}
+header a.phone {
+    color: #144b86;
+    font-size: 35px;
+    line-height: 1.0;
+    text-align: center;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+header a.phone:hover{
+    text-decoration: underline;
+}
+  
+/*
+ * Page Content Containers
+ */
+.home {
+    padding: 0;
+}
+.content-container {
+    padding: 45px 0;
+}
+.main-container {
+    margin-bottom: 45px;
+}
+.col-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 2%;
+}
+
+/*
+ * Hero Styles
+ */
+  
+/*
+ * Main Styles
+ */
+  
+/*
+ * Form Styles
+ */
+
+/*
+* Teaser Styles
+*/
+.teasers-container { padding-top: 0; }
+.teasers-container .teaser-col.grid-1-2 {
+    width: calc(50% - 20px);
+}
+.teasers-container .teaser-col.grid-1-3 {
+    width: calc(33.333% - 20px);
+}
+.teaser-col:first-of-type { padding: 0 20px 0 0; }
+.teaser-col { flex: 1 0 auto; justify-content: center; padding: 0 10px; }
+.teaser-col:last-of-type { padding: 0 0 0 20px; }
+.teaser-col img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.teaser-col h3 {
+    padding: 0 20px;
+    margin-bottom: 20px;
+    font-weight:600;
+}
+.teaser-col p {
+    padding: 0 20px;
+    margin: 0;
+}
+.teaser-col p:last-of-type {
+    margin-bottom: 10px;
+}
+.teaser-col ul {
+    margin-top: auto;
+    margin-bottom: 0;
+    color:#747474;
+}
+
+  
+/*
+ * Awards Styles
+ */
+
+/*
+ * CTA Band Styles
+ */
+.cta-band_call {
+    background-color: #1091cc;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding: 30px 0;
+    margin:0 0 40px 0;
+}
+.cta-band_call [class^="grid-"] {
+    justify-content: center;
+}
+.cta-band_call .grid-row h3 {
+    font-size: 42px;
+    color: #fff;
+    margin: 20px 0;
+}
+.cta-band_call a {
+    color: #fff;
+    text-decoration: none;
+}
+.cta-band_call a:hover {
+    color: rgb(203, 221, 255);
+    text-decoration: underline;
+}
+  
+/*
+ * Location Styles
+ */
+  
+/*
+ * Footer Styles
+ */
+footer.full-width {
+    padding: 45px 0;
+    margin-bottom: 0;
+}
+footer img { margin-top: 12px; }
+footer p.copyright {
+    margin-top: 65px;
+}
+
+/* BROWSER VARIATIONS */
+
+/* Medium - Laptop Screen */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* Small - Tablet */
+@media only screen and (max-width: 768px) {
+    .header-tagline {
+        font-size:20px;
+    }
+
+    header a.phone {
+        font-size:32px;
+    }
+
+    .col-section {
+        padding:15px;
+        flex-direction:column;
+    }
+
+    .form-wrapper input[type=text],
+    .form-wrapper input[type=email],
+    .form-wrapper input[type=tel] {
+        font-size:1rem;
+    }
+
+    .teasers-container {
+        padding:15px;
+    }
+
+    .teaser-col.grid-1-3 h3 {
+        font-size:20px;
+        padding:0;
+    }
+
+    .teaser-col.grid-1-3 ul {
+        padding:20px;
+    }
+
+    .full-width.cta-band_call h3 {
+        font-size:36px;
+    }
+
+}
+
+/* XS - Phone */
+@media only screen and (max-width: 375px) {
+    
+    header .grid-row {
+        flex-direction:column;
+    }
+
+
+    img.header-logo {
+        width:200px;
+    }
+    #form h3 {
+        font-size:1.2rem;
+    }
+
+    .form-wrapper input[type=text],
+    .form-wrapper input[type=email],
+    .form-wrapper input[type=tel] {
+        width: 100%;
+    }
+    .form-wrapper p {
+        line-height:1.2rem;
+    }
+
+}
+
+/* COLOR THEMES
+ * ============
+ * Custom Colors for Individual Locations and System Pages
+ * Blue/Cool : ARMC, VHS, NWTX - DEFAULT
+ * Purple/Warm : TMC, TVH
+ * Blue & Green : WRMC, NNMC
+ * Green: FDRMC, DHL
+ * Other Green: MMH, MHCS, LRMC
+ * Blue & Gold : GWUH, SWHS, CRMC, PRMC
+ * STHS (singular)
+ * STM (singular)
+ */
+ /* DEFAULT */
+/*
+Primary: 
+Accent: 
+*/
+h1, h2, h4, h5, h6,
+.hero-container .grid-row [class^=grid-]:first-of-type h1,
+.hero-container .grid-row [class^=grid-]:first-of-type p {
+    color: #0d325a;
+}
+footer,
+footer { background-color: #0d325a; }
+footer p,
+footer p { color:#ffffff; }
+
+ /* INDIVIDUAL LOCATIONS */
+/* Aiken Regional Medical Centers
+ * ---------
+ * armc 
+ */
+ /*
+Primary: #222d65
+Accent: #006E9C
+*/
+body[class*=armc] h1,
+body[class*=armc] h2,
+body[class*=armc] h4,
+body[class*=armc] h5,
+body[class*=armc] h6,
+body[class*=armc] .hero-container .grid-row [class^=grid-]:first-of-type h1,
+body[class*=armc] .hero-container .grid-row [class^=grid-]:first-of-type p {
+    color: #3c475a;
+}
+body[class*=armc] footer { background-color: #3c475a; }
+body[class*=armc] footer p { color:rgba(255, 255, 255, 0.6); }
+/* Corona Regional Medical Center
+ * ---------
+ * crmc
+ */
+ /*
+Primary: #00447c
+Accent: #966E17
+*/
+
+/* Doctors Hospital of Laredo
+ * -----------
+ * dhl
+ */
+ /*
+Primary: #004f39
+Accent: #507B6C
+*/
+
+/* Fort Duncan Regional Medical Center
+ * ---------
+ * fdmc
+ */
+ /*
+Primary: #004f39
+Accent: #507B6C
+*/
+
+/* George Washington University Hospital, The
+ * ---------
+ * gwuh
+ */
+ /*
+Primary: #004065
+Accent: #007BAF
+*/
+
+/* Lakewood Ranch Medical Center
+ * ------------
+ * lrmc
+ */
+ /*
+Primary: 
+Accent: 
+*/
+
+/* Northern Nevada Medical Center
+ * -------------
+ * nnmc
+ */
+ /*
+Primary: #1c355e
+Accent: #00754a
+*/
+
+ /* Palmdale Regional Medical Center
+ * -----------
+ * prmc
+ */
+ /*
+Primary: #014482
+Accent: #998667
+*/
+/* St. Mary's Regional Medical Center
+ * -----------
+ * stm
+ */ 
+ /*
+Primary: #1b3d6e
+Accent: #00918D
+*/
+
+ /* Temecula Valley Hospital
+ * ---------
+ * tvh
+ */
+ /*
+Primary: #450242
+Accent: #677718
+*/
+
+ /* Texoma Medical Center
+ * ---------
+ * tmc
+ */
+ /*
+Primary: #43003D
+Accent: #720222
+*/
+
+/* Wellington Regional Medical Center
+ * -----------
+ * wrmc
+ */
+ /*
+Primary: #17305a
+Accent: #428840
+*/
+
+ /* SYSTEMS */
+/* Manatee Healthcare System
+ * ------------
+ * mhs
+ */
+ /*
+Primary: #00907f
+Accent: #00534a
+*/
+
+/* Northwest Texas Healthcare System
+ * ----------
+ * nwths
+ */
+ /*
+Primary: #19367C
+Accent: #282829
+*/
+
+/* South Texas Health System
+ * ---------
+ * stxs
+ */
+ /*
+Primary: #7c2529
+Accent: #451416
+*/
+
+/* Southwest Healthcare System
+ * ------------
+ * swhs
+ */
+ /*
+Primary: #144984
+Accent: #172c54
+*/
+
+/* Valley Health System, The
+ * ----------
+ * vhs
+ */ 
+ /*
+Primary: #002855
+Accent: #004785
+*/

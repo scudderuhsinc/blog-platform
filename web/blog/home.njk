@@ -1,0 +1,29 @@
+---
+layout: layouts/html.njk
+data: getYear
+templateClass: home
+tags: home
+pagination:
+  alias: page
+  data: published
+  size: 1
+eleventyExcludeFromCollections: true
+permalink: "blog-code/index.html"
+---
+<div class="container-inner_col content-container">
+
+    <div class="col-section">
+
+    <div class="col">
+      <p>page.main | markdownify | safe</p>
+    </div>
+
+    </div>
+
+    <div class="full-width cta-band_call">
+      <div class="grid-row">
+        <h3>Call for an Appointment: <a href="tel:{{ page.tel }}">{{ page.tel }}</a></h3>
+      </div>
+    </div>
+
+  </div>
