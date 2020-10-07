@@ -1,10 +1,8 @@
-
 const { DateTime }=require("luxon");
 const CleanCSS=require("clean-css");
 const util=require('util');
 
 module.exports=function (eleventyConfig) {
-
 
   // Find and copy any `png` files, maintaining directory structure.
   // UHS Footer Logo

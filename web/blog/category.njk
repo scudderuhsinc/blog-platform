@@ -8,24 +8,22 @@ pagination:
   data: published
   size: 1
 eleventyExcludeFromCollections: true
-permalink: "index.html"
+permalink: "{{ page.category.slug | slug }}/index.html"
 ---
   <div class="container-inner_col content-container">
 
     <div class="full-width">
-      <p>home</p>
+      <p><a href="/">home</a> > {{ page.category.title }}</a></p>
     </div>
 
-    <h1>{{ page.owner.name }}</h1>
-
-    <p>welcome to the <a href="{{ page.owner.link }}" target="_blank">{{ page.owner.name }}</a> blog.</p>
+    <h1>{{ page.category }}</h1>
 
     <div class="col-section">
 
       <div class="col">
         <ul>
             <li>
-              <a href="/category-slug/post-slug/">Post Title</a>
+              <a href="/post-slug/">Post Title</a>
             </li>
         <ul>
       </div>

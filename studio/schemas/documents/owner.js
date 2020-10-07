@@ -1,6 +1,6 @@
 export default {
     name: 'owner',
-    title: 'Owner',
+    title: 'Owners',
     type: 'document',
     fields: [
         {
@@ -10,8 +10,8 @@ export default {
             description: `Facility or System Name`
         },
         {
-            title: 'Code',
-            name: 'code',
+            title: 'Slug',
+            name: 'slug',
             type: 'slug',
             description: `Facility or System Code, initals`
         },

@@ -1,6 +1,6 @@
 export default {
     name: 'category',
-    title: 'Catagory',
+    title: 'Catagories',
     type: 'document',
     fields: [
         {
@@ -12,15 +12,20 @@ export default {
             title: 'Slug',
             name: 'slug',
             type: 'slug',
-            description: `url friendly string`,
+            description: `url friendly string, 95 characters or less.`,
             options: {
                 source: 'title',
-                maxLength: 200, // will be ignored if slugify is set
+                maxLength: 95, // will be ignored if slugify is set
                 slugify: input => input
                     .toLowerCase()
                     .replace(/\s+/g, '-')
-                    .slice(0, 200)
+                    .slice(0, 95)
             }
-        }
+        },
+        // {
+        //     name: 'description',
+        //     type: 'description',
+        //     validation: Rule => Rule.error('You have to define a description for this category.').required()
+        // }
     ]
 }
